@@ -21,12 +21,15 @@ public class CodingTheoryProblem : IAlgebraPatterns
 
         int t = (d - 1) / 2;
 
+        int s = d - 1;
+
         Console.WriteLine($"\nParametrii codului:");
         Console.WriteLine($"n (lungime) = {n}");
         Console.WriteLine($"k (dimensiune) = {k}");
         Console.WriteLine($"M (nr cuvinte) = {M}");
         Console.WriteLine($"d (distanta min) = {d}");
         Console.WriteLine($"t (capacitate corectie) = {t}");
+        Console.WriteLine($"s = {s}");
     }
 
     private static int CalculeazaDistantaMinima(int[,] G, int k, int n)
